@@ -18,8 +18,9 @@
         {{-- <livewire:styles /> --}}
     </head>
     <body class="antialiased">
-        @livewire('livewire.show-post') {{-- 'App\\Http\\Livewire' edit some information in livewre config file --}}
-        @livewire('my-livewire.show-comment-from-post') {{-- 'App\\Http\\MyLivewire' edit some information in livewre config file --}}
+        @livewire('inline-comp') {{-- inline component --}}
+        {{-- @livewire('livewire.show-post')  'App\\Http\\Livewire' edit some information in livewre config file --}}
+        {{-- @livewire('my-livewire.show-comment-from-post')  'App\\Http\\MyLivewire' edit some information in livewre config file --}}
         @livewireScripts
         {{-- <livewire:scripts /> --}}
     </body>
